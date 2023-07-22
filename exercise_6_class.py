@@ -128,7 +128,7 @@ def main():
     integral = CalculteIntegral(-50, 50)
     max_points = int(input('Please enter the number of points you want to sample the function with: '))
     integral.calculate_integral(max_points)
-    print(integral)
+    print('chek', integral)
     integral.sampling_cycle(1.0e-5)
     integral.print_charts()
     integral.save_chart('graph1')
